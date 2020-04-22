@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+html{
+    font-size: 62.5%; /**RESET PARA REMS - 62.5%=10px de 16 px**/
+    box-sizing: border-box;
+}
+ 
+*, *:before, *:after {
+       box-sizing: inherit;
+}
+
+body{
+    font-family:  'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 3.8rem;
+    font-weight: 400;
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.site-header{
+    height: 10rem;
+    background-color: #343a40;
+    
+}
+
+.barra{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+nav a:hover{
+    color:dimgrey;
+}
+
+.section{
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    text-align: center; 
+}
+
+.parrafo{
+    line-height: 2;
+    font-weight: 300;
+        
+}
+
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-size: 1.8rem;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+}
+
+.btn-azul{
+    background-color: #007bff;
+}
+
+.btn-gris{
+    background-color: #6c757d;
+}
+
+
+.btn:hover{
+    color: black;
+    opacity: 50%;
+}
+
+/**ANUNCIOS**/
+
+.contenedor-anuncios{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.anuncio{
+    flex-shrink: 0;
+    flex-basis: calc(33.3% - 1rem);
+    border: 2px solid #dfdfdf;
+    border-radius:2%;
+    margin-bottom: 2rem;
+}
+
+.contenido-anuncio{
+    padding: 2rem;
+    font-weight: 400;
+}
+
+.contenido-anuncio p{
+    display: block;
+ 
+}
+
+.final-anuncio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botones{
+    position:relative;
+    display: inline-flex;
+    vertical-align: middle;
+    border: 1px solid gray;
+    background-color: #ffffff;
+   
+}
+.btn-1{
+    padding: .25rem .5rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-radius: 50%;
+    color: gray;
+    margin-right: 1px;
+    
+}
+
+.btn-2{
+    
+    padding: .25rem .5rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-radius: 50%;
+    color: gray;
+    
+    
+}
+
+.final-anuncio{
+    color: #6c757d;
+    font-size: 1.5rem;
+    
+}
+.site-footer{
+    color: #6c757d;
+    margin-top: 12rem;
+    margin-bottom: 8rem;
+}
+.site-footer a{
+    color:#527bff;
+    text-decoration: none;
+}
+
+.site-footer a:hover{
+    text-decoration:underline;
+    color: blue;
+}
+
+/**Template_02**/
+
+.site-header-2{
+    height: 10rem;
+    background-color: #ffffff;
+    
+}
+.barra-2{
+    color: #343a40;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+.barra-2 a{
+    text-decoration: none;
+    color:#212529;
+    margin-left: 2rem;
+}
+
+.nav-2 a{
+    text-decoration: none;
+    color: #343a40;
+    font-size: 1.5rem;
+    margin-right: 3rem;
+}
+
+.nav-2 a:hover{
+    color:#646f7a;
+}
+
+.logo-2{
+    color:#212529;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.btn-templ2{
+    border: 1px solid #007bff;
+    color: #007bff;
+    border-radius: 10%;
+    padding: 1rem;
+}
+
+.btn-templ2 span{
+    color:#007bff;
+}
+
+hr{
+    
+}
+
+
+
+
+
+
+
+
