@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Template_03</title>
+</head>
+<body>
+  <header class="contenedor header-t3">
+      <img class="logo_3" src="img/bootstrap-solid.svg" alt="logo-boostrap">
+      <h1>Checkout form</h1>
+      <p>
+          Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.
+      </p>
+  </header>
+  
+  
+
+  
+  <div class="contenedor wrapper">
+  
+  <main class="contenedor">
+      <h2>Billing address</h2>
+      
+          <form action="">
+                
+                <div class="first-last-name">
+                    
+                     <label for="first name">First name</label>
+                     <input for="text" id="first name" placeholder="">
+                 
+                    <label for="last name">Last name</label>
+                    <input for="text" id="last name" placeholder="">
+                
+                </div>
+                
+                <div class="form-field">
+                    <label for="username">Username</label>
+                    <input for="text" id="username" placeholder="Username">
+
+                    <label for="email">Email (Optional)</label>
+                    <input for="email" id="email" placeholder="you@example.com">
+
+                    <label for="address">Address</label>
+                    <input for="street-address" id="address" placeholder="1234 Main St">
+
+                    <label for="address">Address 2 (Optional)</label>
+                    <input for="street-address" id="address-optional" placeholder="Apartamen or suite">
+                </div>
+                
+                <div class="selct-choise">
+                    <label for="opciones">Country</label>
+                    <select id="opciones">
+                        <option value="">Choose</option>
+                        <option value="">Chile</option>
+                    </select>
+
+                     <label for="opciones">State</label>
+                    <select id="state">
+                        <option value="">California</option>
+                        <option value="">Chile</option>
+                    </select>
+
+                    <label for="zip">Zip</label>
+                    <input for="text" id="zip" placeholder="">
+                
+                </div>
+                
+                
+                <div class="paymet">
+                <h2>Paymet</h2>
+                
+                <label><input type="checkbox" id="cbox1" value="first_checkbox"> Shipping address is the same as my billing address</label>
+                <label><input type="checkbox" id="cbox2" value="first_checkbox"> Save this information for next time
+                </label>
+
+               
+                   
+                <label for="credit card">Credit card</label>
+                <input type="radio" name="paymet" id="credit-card">
+                 
+                <label for="debit-card">Debit card</label>
+                <input type="radio" name="paymet" id="debit-card">
+                
+                <label for="paypal">Paypal</label>
+                <input type="radio" name="paymet" id="paypal">
+                
+                
+                </div>
+                
+                
+                 <div class="info-cards">
+                     <label for="name-card">Name on card</label>
+                      <input for="text" id="name-card" placeholder="">
+                    
+                
+                    <label for="number-creditc">Number credit card</label>
+                    <input for="cc-number" id="credit-number" placeholder="">
+
+                    <label for="Expiration">Expiration</label>
+                    <input for="cc-number" id="expiration" placeholder="">
+
+                    <label for="number-creditc">CCV</label>
+                    <input for="cc-number" id="ccv" placeholder="">
+                
+                </div>
+                
+                <div class="continue">
+                <input type="submit" value="Continue to ckeckout" class="btn btn-azul">
+                </div>
+      
+          </form>
+   </main>
+ 
+  
+  <div class="contenedor you-cart">
+    <ul>
+        <li class="list-card">
+          <div class="lista">
+           <h3>Produc name</h3>
+           <p>Brief description</p>
+           </div>
+           <span>$12</span>
+        </li>
+        
+        <li class="list-card">
+           <div class="lista">
+           <h3>Second product</h3>
+           <p>Brief description</p>
+            </div>
+           <span>$8</span>
+        </li>
+        
+        <li class="list-card">
+           <div class="lista">
+           <h3>Third item</h3>
+           <p>Brief description</p>
+            </div>
+           <span>$5</span>
+        </li>
+        
+        <li class="list-card">
+           <div class="lista">
+           <h6>Promo code</h6>
+           <p>EXAMPLECODE</p>
+            </div>
+           <span>$-5</span>
+        </li>
+        
+        <li class="list-card">
+           <div class="lista">
+           <h3>Total (USD)</h3>
+            </div>
+           <span>$20</span>
+        </li>
+        
+        <li class="list-card">
+           <div class="lista">
+           <h3>Produc name</h3>
+           <p>Brief description</p>
+            </div>
+           <span>12</span>
+        </li>
+        
+        <li class="list-card">
+            <div class="lista">
+              <label for="promo-code"></label>
+              <input for="text" id="promo-code" placeholder="Promo code">
+               <input type="submit" value="Reedem" class="btn btn-templt3">
+               
+                
+            </div>
+        </li>
+        
+    </ul>
+     
+  </div>
+
+    </div>
+
+                   
+</body>
+</html>

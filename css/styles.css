@@ -6,12 +6,15 @@ html{
  
 *, *:before, *:after {
        box-sizing: inherit;
+       margin: 0px;
+       padding: 0px;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     line-height: 2;
+    background-color: #f8f9fa;
 }
 
 img{
@@ -184,8 +187,8 @@ nav a:hover{
     display:flex;
     justify-content:space-between;
     align-items: center;
-    padding-top: 0px;
-    margin-bottom: 0px;
+    padding: 3rem;
+    
 }
 .barra-2 a{
     text-decoration: none;
@@ -245,6 +248,7 @@ hr{
    background-color:#f7f7f7;
    text-align: center;
    margin-top: 0px;
+  padding: 20px;
 
 }
 
@@ -345,10 +349,197 @@ hr{
     color:#212529;
     text-decoration-line: none;
 }
+/**TEMPLATE-3**/
 
+.header-t3{
+    text-align: center;
+}
+.logo_3{
+    max-width: 6%;
+    padding-top: 4rem;
+    
+}
+.header-t3 h1{
+    font-weight: 500;
+    color: #212529;
+    margin-bottom: 0px;
+}
 
+.header-t3 p{
+    font-weight: 300;
+    font-size: 2rem;
+    max-width: 75%;
+    margin-top: 0px;
+    margin: auto;
+}
 
+/**FORMULARIOS DE CONTACTO**/
 
+.wrapper{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 100px 100px;
+    margin-top: 3rem;
+}
+
+input{
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    color: #495057;
+    }
+    /**height: calc(1.5em + .75rem + 2px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+ **/
+
+.first-last-name input{
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.first-last-name label{
+    font-size: 2rem;
+}
+.first-last-name{
+    margin-bottom: 1rem;
+}
+
+.form-field input{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    
+}
+
+.form-field label{
+    font-size: 2rem;
+    display: block;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    
+}
+.selct-choise{
+    margin-top: 2rem;
+}
+.selct-choise input{
+    margin-top: 1rem;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+   
+    
+}
+
+.paymet label{
+    display: block;
+}
+
+.info-cards{
+    margin-bottom: 2rem;
+}
+.info-cards label{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.info-cards input{
+    margin-top: 1rem;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    
+}
+.continue input{
+    width: 100%;
+}
+
+.list-card{
+    display: flex!important;
+    justify-content: space-between!important;
+    position: relative;
+    display: block;
+    padding: 1rem 1.25rem;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    
+}
+.lista{
+    display: block;
+}
+
+.lista label{
+    font-size: 2rem;
+    margin-top: 2rem;
+    
+}
+
+.lista input{
+    width: 100%;
+    margin-top: 1rem;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #5a6268;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    
+}
+
+.list-card span{
+    color: #6c757d;
+}
+
+.you-cart{
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    
+}
+.foot-3{
+    text-align: center;
+    color: dimgray;
+}
 
 
 
