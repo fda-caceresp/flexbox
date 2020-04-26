@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Template_03</title>
 </head>
@@ -17,168 +16,290 @@
   </header>
   
   
-
+ <div class="contenedor">
   
-  <div class="contenedor wrapper">
-  
-  <main class="contenedor">
-      <h2>Billing address</h2>
+  <div class="flex-container">
+   
+  <!--SEGUNDO-CONTENEDOR-->
+<!--  Inicio list-->
+  <div class="row">
+  <div class="contenido-list col-md-4 mb-4">
+     <h4 class="yc">Your cart</h4>
       
-          <form action="">
-                
-                <div class="first-last-name">
-                    
-                     <label for="first name">First name</label>
-                     <input for="text" id="first name" placeholder="">
-                 
-                    <label for="last name">Last name</label>
-                    <input for="text" id="last name" placeholder="">
-                
-                </div>
-                
-                <div class="form-field">
-                    <label for="username">Username</label>
-                    <input for="text" id="username" placeholder="Username">
-
-                    <label for="email">Email (Optional)</label>
-                    <input for="email" id="email" placeholder="you@example.com">
-
-                    <label for="address">Address</label>
-                    <input for="street-address" id="address" placeholder="1234 Main St">
-
-                    <label for="address">Address 2 (Optional)</label>
-                    <input for="street-address" id="address-optional" placeholder="Apartamen or suite">
-                </div>
-                
-                <div class="selct-choise">
-                    <label for="opciones">Country</label>
-                    <select id="opciones">
-                        <option value="">Choose</option>
-                        <option value="">Chile</option>
-                    </select>
-
-                     <label for="opciones">State</label>
-                    <select id="state">
-                        <option value="">California</option>
-                        <option value="">Chile</option>
-                    </select>
-
-                    <label for="zip">Zip</label>
-                    <input for="text" id="zip" placeholder="">
-                
-                </div>
-                
-                
-                <div class="paymet">
-                <h2>Paymet</h2>
-                
-                <label><input type="checkbox" id="cbox1" value="first_checkbox"> Shipping address is the same as my billing address</label>
-                <label><input type="checkbox" id="cbox2" value="first_checkbox"> Save this information for next time
-                </label>
-
-               
-                   
-                <label for="credit card">Credit card</label>
-                <input type="radio" name="paymet" id="credit-card">
-                 
-                <label for="debit-card">Debit card</label>
-                <input type="radio" name="paymet" id="debit-card">
-                
-                <label for="paypal">Paypal</label>
-                <input type="radio" name="paymet" id="paypal">
-                
-                
-                </div>
-                
-                
-                 <div class="info-cards">
-                     <label for="name-card">Name on card</label>
-                      <input for="text" id="name-card" placeholder="">
-                    
-                
-                    <label for="number-creditc">Number credit card</label>
-                    <input for="cc-number" id="credit-number" placeholder="">
-
-                    <label for="Expiration">Expiration</label>
-                    <input for="cc-number" id="expiration" placeholder="">
-
-                    <label for="number-creditc">CCV</label>
-                    <input for="cc-number" id="ccv" placeholder="">
-                
-                </div>
-                
-                <div class="continue">
-                <input type="submit" value="Continue to ckeckout" class="btn btn-azul">
-                </div>
-      
-          </form>
-   </main>
- 
-  
-  <div class="contenedor you-cart">
-    <ul>
+       <ul class="lista-grupo mb-3">
+       
         <li class="list-card">
           <div class="lista">
-           <h3>Produc name</h3>
-           <p>Brief description</p>
+           <h6 class="my-0">Produc name</h6>
+           <small class="text-muted">Brief description</small>
            </div>
-           <span>$12</span>
+           <span class="text-muted">$12</span>
         </li>
         
         <li class="list-card">
            <div class="lista">
-           <h3>Second product</h3>
-           <p>Brief description</p>
+           <h6 class="my-0">Second product</h6>
+           <small class="text-muted">Brief description</small>
             </div>
-           <span>$8</span>
+           <span class="text-muted">$8</span>
         </li>
         
         <li class="list-card">
            <div class="lista">
-           <h3>Third item</h3>
-           <p>Brief description</p>
+           <h6 class="my-0">Third item</h6>
+           <small class="text-muted">Brief description</small>
             </div>
-           <span>$5</span>
+           <span class="text-muted">$5</span>
+        </li>
+        
+        <li class="list-card">
+           <div class="text-prom">
+           <h6 class="text-prom">Promo code</h6>
+           <small>EXAMPLECODE</small>
+            </div>
+           <span class="text-muted">$-5</span>
         </li>
         
         <li class="list-card">
            <div class="lista">
-           <h6>Promo code</h6>
-           <p>EXAMPLECODE</p>
-            </div>
-           <span>$-5</span>
+           <h6 class="my-0">Total (USD)</h6>
+          </div>
+           <span class="text-muted">$20</span>
         </li>
         
         <li class="list-card">
            <div class="lista">
-           <h3>Total (USD)</h3>
+           <h6 class="my-0">Produc name</h6>
+           <small class="text-muted">Brief description</small>
             </div>
-           <span>$20</span>
+           <span class="text-muted">12</span>
         </li>
         
-        <li class="list-card">
-           <div class="lista">
-           <h3>Produc name</h3>
-           <p>Brief description</p>
-            </div>
-           <span>12</span>
-        </li>
-        
-        <li class="list-card">
-            <div class="lista">
-              <label for="promo-code"></label>
-              <input for="text" id="promo-code" placeholder="Promo code">
-               <input type="submit" value="Reedem" class="btn btn-templt3">
+        <form class="promo-code">
+           <div class="input-grupo">
+              <input type="text" class="form-control" placeholder="Promo code">
+              <div class="caja-b-promo">
+                  <buttom type="submit" class="redeem">
+                      Redeem
+                  </buttom>
+              </div>
+             
                
-                
-            </div>
-        </li>
+           </div>
+            
+        </form>
         
     </ul>
      
   </div>
+</div>
+<!--  Cierre List-->
+<!--  CIERRE SEGUNDO CONTENEDOR-->
+ 
+ 
+  <!--INICIO FORMULARIO DE CONTACTO--> 
+  <main class="contenedor contenido-form">
+      <h2>Billing address</h2>
+      <form class="formulario">
+          <div class="row">
+              <div class="col-md-6 mb-3">
+                  <label for="first name">First name</label>
+                  <input for="text" class="form-control" id="first name" placeholder="">  
+              </div>
+              <div class="col-md-6 mb-3">
+                   <label for="last name">Last name</label>
+                   <input for="text" class="form-control" id="last name" placeholder="">
+              </div>
+          </div>
+          
+          <div class="mb-3">
+               <label for="username">Username</label>
+               <div class="input-grupo">
+                   <div class="input-grupo-emoji">
+                       <span class="input-grupo-text">@</span>
+                   </div>
+                 <input for="text" class="form-control" id="username" placeholder="Username">
+               </div>
+          </div>
+          
+          <div class="mb-3">
+               <label for="email">
+                   Email 
+                   <span class="text-muted">(Opcional)</span>
+               </label>
+                   <input for="email" class="form-control" id="email" placeholder="you@example.com">
+           </div>
+           
+           <div class="mb-3">
+               <label for="address">Address</label>
+               <input for="street-address" class="form-control"  id="address" placeholder="1234 Main St">
+           </div>
+            
+           
+           <div class="mb-3">
+               <label for="address2">
+                   Address 2
+                  <span class="text-muted">(Opcional)</span>
+               </label>
+                   <input for="street-address" class="form-control" id="address2" placeholder="Apartamen or suite">
+           </div>
+           
+          <div class="c-s-z">
+              <div class=".col-md-5 mb-3">
+                  <label for="opciones">Country</label>
+                   <select class="custom-select .d-block w-100" id="country">
+                        <option value="">Choose</option>
+                        <option value="">Chile</option>
+                    </select>  
+              </div>
+              <div class="col-md-4 mb-3">
+                  <label for="opciones">State</label>
+                    <select class="custom-select d-block w-100" id="state">
+                        <option value="">California</option>
+                        <option value="">Chile</option>
+                    </select>
+              </div>
+              <div class="col-md-3 mb-3">
+                    <label for="zip">Zip</label>
+                    <input for="text" class="form-control" id="zip" placeholder="">    
+              </div>
+          </div>
+          
+          <hr>
+          
+            <label><input type="checkbox" id="cbox1" value="first_checkbox"> Shipping address is the same as my billing address</label>
+              <br>
+              
+               
+            
+            <label><input type="checkbox" id="cbox2" value="first_checkbox"> Save this information for next time
+                </label>
 
+          
+          
+<!--
+               <div class="custom-control custom-check">
+                 <input type="checkbox" class="custom-control-input" id="same-address">
+                 <label class="custom-control-label" for="same-address">
+                     
+                     Shipping address is the same as my billing 
+                     
+                </label> 
+          </div>
+                  
+             <div class="custom-control custom-check">
+                 <input type="checkbox" class="custom-control-input" id="safe-info">
+                 <label class="custom-control-label" for="save-info">
+                     
+                     Save this information for next time
+                     
+                </label> 
+          </div>
+-->
+          
+          <hr>
+          
+          <h4 class="mb-3">Payment</h4>
+          
+          <div class="d-block my-3">
+          
+              <div class="custom-control custum-radio">
+
+                        <input type="radio" name="paymet" id="credit-card">
+                        <label for="credit card">Credit card</label>
+               </div>
+                 
+                <div class="custom-control custum-radio">
+                    <input type="radio" name="paymet" id="debit-card">
+                    <label for="debit-card">Debit card</label>
+                </div>
+               
+                <div class="custom-control custum-radio">
+                    <input type="radio" name="paymet" id="paypal">
+                     <label for="paypal">Paypal</label>
+                  </div>
+          
+               </div>
+                
+<!--
+            <div class="d-block my-3">
+                <div class="custom-control custum-radio">
+                     <input type="radio" class="custom-control-input" name="paymet" id="credit">
+                     <label class="custom-control-label" for="credit">
+                     Credit card
+                     </label>
+                </div>
+                
+                
+                <div class="custom-control custum-radio">
+                     <input type="radio" class="custom-control-input" name="paymet" id="debit">
+                     <label class="custom-control-label" for="debit">
+                     Debit card
+                     </label>
+                </div>
+                
+                <div class="custom-control custum-radio">
+                     <input type="radio" class="custom-control-input" name="paymet" id="paypal">
+                     <label class="custom-control-label" for="paypal">
+                     Paypal
+                     </label>
+                </div>
+               
+            </div>
+-->
+            
+            
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                   <label for="cc-number">Name on card</label>
+                    <input for="text" class="form-control" id="cc-name" placeholder="">
+                    <small class="text-muted">Full name as displayed on card</small>
+                </div>
+                
+                <div class="col-md-6 mb-3">
+                    <label for="cc-number">Number credit card</label>
+                    <input for="cc-number" class="form-control" id="cc-number" placeholder="">
+                    
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                   <label for="Expiration">Expiration</label>
+                   <input for="cc-expiration" class="form-control" id="cc-expiration" placeholder="">   
+                </div>
+                
+                <div class="col-md-3 mb-3">
+                     <label for="cc-cvv">CCV</label>
+                    <input for="cc-number" class="form-control" id="cc-cvv" placeholder="">
+                </div>
+            </div>
+            
+            <hr>
+            
+            <buttom class="buttom-3" type="submit">Continue to ckeckout</buttom>
+      </form>
+  </main>
+<!--  TERMINO FORMULARIO DE CONTACTO-->
+  
+  </div>
+  
+  </div>
+  
+  <footer class="foot-templ-3">
+     <p>© 2017-2019 Company Name</p>
+     <div class="nav-foot">
+         <a href="#">Privacy</a>
+         <a href="#">Terms</a>
+         <a href="#">Support</a>
     </div>
+    
+      
+  </footer>
+   
+  
+                   
+    
 
                    
 </body>
