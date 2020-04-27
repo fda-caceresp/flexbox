@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap');
 html{
-    font-size: 62.5%; /**RESET PARA REMS - 62.5%=10px de 16 px**/
+/*    font-size: 62.5%; */
+    /**RESET PARA REMS - 62.5%=10px de 16 px**/
     box-sizing: border-box;
 }
  
@@ -12,23 +13,45 @@ html{
 
 body{
     font-family: 'Roboto', sans-serif;
-    font-size: 1.6rem;
-    line-height: 2;
     background-color: #f8f9fa;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+.contenedor{
+    max-width: 960px;
+}
+.contenedor{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 img{
     max-width: 100%;
 }
 
-h1{
-    font-size: 3.8rem;
-    font-weight: 400;
+h2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    line-height: 1.2;
 }
-.contenedor{
-    max-width: 120rem;
-    margin: 0 auto;
+h4{
+    font-size: 1.5rem;
+    font-weight: 500;
 }
+h6{
+     font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
 .body-template2{
     background-color: #ffffff;
 }
@@ -46,7 +69,7 @@ h1{
 nav a{
     text-decoration: none;
     color: aliceblue;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-right: 2rem;
 }
 nav a:hover{
@@ -54,8 +77,8 @@ nav a:hover{
 }
 
 .section{
-    margin-top: 5rem;
-    margin-bottom: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     text-align: center; 
 }
 
@@ -76,22 +99,22 @@ nav a:hover{
     text-align: center;
     vertical-align: middle;
     border: 1px solid transparent;
-    font-size: 1.8rem;
-    border-radius: 5%;
-    padding: .550rem 1.5rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
     line-height: 1.5;
     
 }
 
 .btn-azul{
     background-color: #007bff;
-    border-radius: 5%;
+    border-radius: .25rem;
     margin-top: 20px;
 }
 
 .btn-gris{
     background-color: #6c757d;
-    border-radius: 5%;
+    border-radius: .25rem;
     margin-top: 20px;
 }
 
@@ -138,27 +161,27 @@ nav a:hover{
     position:relative;
     display: inline-flex;
     vertical-align: middle;
-    border: 1px solid gray;
     background-color: #ffffff;
+    padding-top: 1rem;
    
 }
 .btn-1{
     padding: .25rem .5rem;
-    font-size: 1.5rem;
+    font-size: .875rem;
     line-height: 1.5;
-    border-radius: 50%;
-    color: gray;
-    margin-right: 1px;
-    
+    border-radius: .2rem;
+    color: #6c757d;
+    border-color: #6c757d;
 }
 
 .btn-2{
     
-    padding: .25rem .5rem;
-    font-size: 1.5rem;
+   padding: .25rem .5rem;
+    font-size: .875rem;
     line-height: 1.5;
-    border-radius: 50%;
-    color: gray;
+    border-radius: .2rem;
+    color: #6c757d;
+    border-color: #6c757d;
     
     
 }
@@ -208,7 +231,7 @@ nav a:hover{
 .nav-2 a{
     text-decoration: none;
     color: #343a40;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-right: 3rem;
 }
 
@@ -218,28 +241,28 @@ nav a:hover{
 
 .logo-2{
     color:dimgray;
-    font-weight: 500;
-    font-size: 2.5rem;
+    font-weight: 400;
+    margin-right: auto;
+    font-size: 1.25rem;
     margin-left: 1rem;
 }
 .h1-templ-2{
     font-weight: 300;
-    font-size: 5rem;
-    padding-top: 5rem;
+    font-size: 3.5rem;
 }
 
 .p-2{
-    font-weight: 200;
     line-height: 2;
-    font-size: 2rem;
     margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: 300;
 }
 
 .btn-templ2{
     border: 1px solid #007bff;
     color: #007bff;
     border-radius: 10%;
-    padding: 1rem;
+    padding:.375rem .75rem;
 }
 
 .btn-templ2 span{
@@ -258,8 +281,8 @@ hr{
    text-align: center;
    margin-top: 0px;
    padding: 20px;
-    border-top-right-radius: 5%;
-    border-top-left-radius: 5%;
+   border-top-right-radius: 5%;
+   border-top-left-radius: 5%;
 
 }
 
@@ -285,7 +308,7 @@ hr{
 }
 .contenido-anuncio-2 p span{
     font-weight: 500;
-    font-size: 4rem;
+    font-size: 2.5rem;
     margin-right: 1rem;
 }
 
@@ -299,9 +322,9 @@ hr{
 .btn-template2{
     border-color: #007bff;
     color:#007bff;
-    font-size: 2rem;
-    border-radius: 5%;
-    padding: 1rem 3rem;
+     font-size: 1.25rem;
+    border-radius: .3rem;
+    padding: .5rem 1rem;
     
 }
 .btn-template2:hover{
@@ -312,9 +335,9 @@ hr{
 
 .btn-template2-2{
     background-color: #007bff;
-    font-size: 2rem;
-    border-radius: 5%;
-    padding: 1rem 3rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+    padding: .5rem 1rem;
     
 }
 .btn-template2-2:hover{
@@ -333,7 +356,7 @@ hr{
 }
 
 .ls-footer{
-    flex-basis: auto;
+/*    flex-basis: auto;*/
     margin-bottom: 2rem;
     padding: 5rem;
     
@@ -358,7 +381,7 @@ hr{
 }
 .primero{
     font-weight: 700;
-    font-size:2rem;
+    font-size:1.25rem;
     color:#212529;
     text-decoration-line: none;
 }
@@ -367,10 +390,16 @@ hr{
 .header-t3{
     text-align: center;
     padding-bottom: 3rem;
+    padding-top: 3rem;
 }
 .logo_3{
-    max-width: 6%;
-    padding-top: 4rem;
+    vertical-align: middle;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    margin-bottom: 1.5rem;
+}
+}
     
 }
 .header-t3 h1{
@@ -381,176 +410,12 @@ hr{
 
 .header-t3 p{
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.25rem;
     max-width: 75%;
     margin-top: 0px;
     margin: auto;
 }
 
-/**FORMULARIOS DE CONTACTO**/
-/**
-.wrapper{
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    grid-template-rows: 100px 100px;
-    margin-top: 3rem;
-}
-
-input{
-    background-color: #ffffff;
-    padding: 1.5rem;
-    border-radius: 1rem;
-    color: #495057;
-    }
-    /**height: calc(1.5em + .75rem + 2px);
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
- 
-
-.first-last-name input{
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #ffffff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-}
-.first-last-name label{
-    font-size: 2rem;
-}
-.first-last-name{
-    margin-bottom: 1rem;
-}
-
-.form-field input{
-    display: block;
-    width: 100%;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    
-}
-
-.form-field label{
-    font-size: 2rem;
-    display: block;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    width: 100%;
-    
-}
-.selct-choise{
-    margin-top: 2rem;
-}
-.selct-choise input{
-    margin-top: 1rem;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #ffffff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-   
-    
-}
-
-.paymet label{
-    display: block;
-}
-
-.info-cards{
-    margin-bottom: 2rem;
-}
-.info-cards label{
-    font-size: 2rem;
-    margin-top: 2rem;
-}
-.info-cards input{
-    margin-top: 1rem;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #ffffff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    
-}
-.continue input{
-    width: 100%;
-}
-
-.list-card{
-    display: flex!important;
-    justify-content: space-between!important;
-    position: relative;
-    display: block;
-    padding: 1rem 1.25rem;
-    background-color: #fff;
-    border: 1px solid rgba(0,0,0,.125);
-    
-}
-.lista{
-    display: block;
-}
-
-.lista label{
-    font-size: 2rem;
-    margin-top: 2rem;
-    
-}
-
-.lista input{
-    width: 100%;
-    margin-top: 1rem;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #5a6268;
-    background-color: #ffffff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    
-}
-
-.list-card span{
-    color: #6c757d;
-}
-
-.you-cart{
-    margin-top: 3rem;
-    margin-bottom: 10rem;
-    
-}
-**/
 .contenido-form{
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
@@ -572,6 +437,8 @@ form{
 }
 .c-s-z{
     display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
    
 }
 .col-md-5{
@@ -585,6 +452,17 @@ form{
     padding-right: 15px;
     padding-left: 15px;  
 }
+.col-state{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-state{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
 
 
 .mb-3{
@@ -599,9 +477,8 @@ label {
 .form-control{
     display: block;
     width: 100%;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .475rem .95rem;
-    font-size: 1.6rem;
+   padding: .375rem .75rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
@@ -614,9 +491,20 @@ label {
 .input-grupo{
     position: relative;
     display: flex;
-    flex-wrap: wrap;
     align-items: stretch;
     width: 100%;
+}
+.input-pcode{
+    padding: .5rem!important;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
 }
 .input-grupo-emoji{
     display: flex;
@@ -651,8 +539,8 @@ input {
 .custom-select{
     display: inline-block;
     width: 100%;
-    height: calc(1.5em + .75rem + 2px);
-    font-size: 1.5rem;
+    padding:.375rem 1.75rem .375rem .75rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
@@ -669,8 +557,7 @@ select{
     position: relative;
     width: 100%;
     padding-right: 15px;
-    padding-left: 15px;
-    
+    padding-left: 15px;  
 }
 
 
@@ -680,6 +567,10 @@ select{
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+}
+.col-md-3{
+    flex: 0 0 25%;
+    max-width: 25%;
 }
 
 hr{
@@ -691,11 +582,12 @@ hr{
     border-top: 1px solid rgba(0,0,0,.1);
     margin-top:1rem;
 }
+.chk-box{
+    padding: ;
+}
 .custom-control {
     position: relative;
     display: block;
-    min-height: 1.5rem;
-    padding-left: 1.5rem;
 }
 input[type=checkbox], input[type=radio] {
     box-sizing: border-box;
@@ -787,11 +679,11 @@ small {
 .buttom-3{
     display: block;
     width: 100%;
-    padding: 1rem 1.5rem;
-    font-size: 1.8rem;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
     line-height: 1.5;
     border-radius: .3rem;
-    color: #fff;
+    color: #ffffff;
     background-color: #007bff;
     border-color: #007bff;
     overflow: visible;
@@ -800,6 +692,10 @@ small {
     font-weight: 400;
     user-select: none;
     border: 1px solid transparent;
+}
+.buttom-3:hover{
+    background-color: blue;
+    
 }
 /*Inicio lista card*/
 
@@ -817,12 +713,22 @@ small {
     align-items: center!important;
     justify-content: space-between!important;
     display: flex!important;
-     margin-bottom: 1rem!important;
-    font-size: 2rem;
-    font-weight: 600;
+    margin-bottom: 1rem!important;
+    font-size: 1.5rem;
+    font-weight: 500;
     line-height: 1.2;
     margin-top:0;
-    color: #6c757d
+    color: #6c757d;
+}
+.secondary-text{
+    color: #ffffff;
+    background-color: #6c757d;
+    border-radius: 10rem;
+    padding: .30em .5em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+  
 }
 .lista-grupo{
     display:flex;
@@ -852,14 +758,14 @@ mb-4{
 
 .my-0{
     margin-bottom: 0!important;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 1.2;
 }
 .text-prom{
     color: #28a745!important;
-    background-color: #f8f9fa!important;
-    font-size: 1.5rem;
+    background-color:#ffffff;
+    font-size: 1rem;
 }
 }
 .promo-code{
@@ -869,7 +775,7 @@ mb-4{
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: #ffffff;
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
