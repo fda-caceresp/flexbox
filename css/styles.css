@@ -393,6 +393,8 @@ hr{
     padding-top: 3rem;
 }
 .logo_3{
+    margin-right: auto;
+    margin-left: auto;
     vertical-align: middle;
     text-align: center;
     width: 72px;
@@ -473,6 +475,34 @@ label {
     display: inline-block;
     margin-bottom: .5rem;
 }
+.fc-redeem{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem 0rem.0rem .25rem; 
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    
+}
+.fm-username{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius:.0rem .25rem .25rem .0rem;
+}
 
 .form-control{
     display: block;
@@ -494,6 +524,7 @@ label {
     align-items: stretch;
     width: 100%;
 }
+
 .input-pcode{
     padding: .5rem!important;
     margin-top: 20px;
@@ -523,7 +554,7 @@ label {
     white-space: nowrap;
     background-color: #e9ecef;
     border: 1px solid #ced4da;
-    border-radius: .25rem;
+    border-radius: .25rem .0rem .0rem .25rem;
 }
 .text-muted {
     color: #6c757d!important;
@@ -539,6 +570,7 @@ input {
 .custom-select{
     display: inline-block;
     width: 100%;
+    height: calc(1.5em + .75rem + 2px);
     padding:.375rem 1.75rem .375rem .75rem;
     font-size: 1rem;
     font-weight: 400;
@@ -588,7 +620,9 @@ hr{
 .custom-control {
     position: relative;
     display: block;
+    
 }
+.
 input[type=checkbox], input[type=radio] {
     box-sizing: border-box;
     padding: 0;
@@ -650,12 +684,15 @@ w-100{
     position: relative;
     width: 100%;
     padding-left: 0px;
-    padding-right:15px;
+    
 }
 .col-md-6{
     flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
+}
+.col-md-6:first-child{
+    padding-right: 15px;
 }
 
 small {
@@ -721,14 +758,23 @@ small {
     color: #6c757d;
 }
 .secondary-text{
-    color: #ffffff;
+    color: #ffffffff;
     background-color: #6c757d;
+     padding: .25em .4em;
     border-radius: 10rem;
-    padding: .30em .5em;
+  
+}
+.num3{
+    display: inline-block;
+    padding-right: .6em;
+    padding-left: .6em;
+   
     font-size: 75%;
     font-weight: 700;
     line-height: 1;
-  
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
 }
 .lista-grupo{
     display:flex;
@@ -750,10 +796,17 @@ mb-4{
     background-color: #fff;
     border: 1px solid rgba(0,0,0,.125);
     line-height: 1.25;
+    border-top: none;
 }
 .list-card:first-child {
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
+    border-top:1px solid rgba(0,0,0,.125);;
+}
+.list-card:last-of-type{
+   border-bottom-left-radius: .25rem;
+   border-bottom-right-radius: .25rem;
+    
 }
 
 .my-0{
@@ -797,7 +850,7 @@ mb-4{
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
-    border-radius: .25rem;
+    border-radius: .0rem .25rem .25rem .0rem;
 }
 
 .flex-container{
